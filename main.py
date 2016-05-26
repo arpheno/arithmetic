@@ -3,7 +3,7 @@ from environment import execute_program
 
 if __name__ == "__main__":
     while True:
-        equation = input("Type your equation, or type 'end' to stop the program")
+        equation = input("Type your equation, or type 'end' to stop the program\n")
         if equation == "end":
             break
         program = compile(visit(parse(scan(equation))))
